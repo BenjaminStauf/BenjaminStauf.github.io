@@ -1,0 +1,68 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Modak';
+    color: black;
+}
+
+.LBtn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    background-color: #218838;
+    margin:5%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .btn {
+      transition: none;
+    }
+  }
+
+.LBtn:hover{
+    background-color: #165c25;
+}
+
+.RegisterContainer{
+    background-color: black;
+    margin: 5% 15% 5%;
+    border-radius: 45px;
+    border-style: solid;
+    border-color: #218838;
+}
+
+.FormInhaltContainer{
+    margin: 5% 20% 5%
+}
+
+.InnenContainer{
+    margin: 2% 0% 2%;
+}
+
+.ppHeadline{
+    color: #218838;
+}
+
+label{
+    display: block;
+    text-align: center;
+    color: white;
+}

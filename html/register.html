@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/register.css">
+</head>
+<body>
+    <!--Menü-->
+    <div class="MenuContainer">
+        <div class="Mdiv">
+            <a href="../index.html" class="Mitem">Home</a>
+        </div>
+        <div class="Mdiv">
+            <a href="/html/game.html" class="Mitem">Game</a>
+        </div>       
+        <div class="Mdiv">
+            <a href="" class="Mitem">Register</a>
+        </div>
+    </div>
+
+
+    <!--Register Formular-->
+    <h1>Register</h1>
+
+    <form class="RegisterContainer">
+        <div class="FormInhaltContainer">
+
+            <div class="InnenContainer">
+                <label for="FirstNameInput">First name</label>
+                <input type="text" class="form-control" id="FirstNameInput" placeholder="Your first name">
+            </div>
+
+            <div class="InnenContainer">            
+                <label for="LastNameInput">Last name</label>
+                <input type="text" class="form-control" id="LastNameInput" placeholder="Your last name">
+            </div>
+            
+            <div class="InnenContainer">
+                <label for="UsernameInput">Username</label>
+                <input type="text" class="form-control" id="UsernameInput" placeholder="Username">
+            </div>
+
+            <div class="InnenContainer">
+                <label for="EmailInput">Email</label>
+                <input type="text" class="form-control" id="EmailInput" placeholder="example@mail.com">
+            </div>
+
+            <div class="InnenContainer">
+                <label for="CountryInput">Country</label>
+                <select class="form-control" id="CountryInput">
+                    <option>Austria</option>
+                    <option>Germany</option>
+                    <option>Italy</option>
+                    <option>Spain</option>
+                    <option>Swiss</option>
+                </select>
+            </div>
+
+            <div class="InnenContainer">
+                <input class="form-check-input" type="checkbox" value="" id="ppReadCheckbox">
+                <label class="form-check-label" for="ppReadCheckbox">I have already read the <a href="/html/privacy_policy.html" class="ppHeadline">privacy policy</a></label>
+            </div>
+
+            <div class="text-center InnenContainer">
+                <button type="submit" class="LBtn">Sign in</button>  
+            </div>
+                      
+        </div>
+    </form>
+</body>
+</html>

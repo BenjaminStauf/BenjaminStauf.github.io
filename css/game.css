@@ -1,0 +1,91 @@
+/*Importe*/
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+
+/*CSS-Einstellungen*/
+body{
+    background-color: grey;
+    /*display: none;*/
+}
+
+h1{
+    text-align: center;
+    font-family: 'Modak';
+    color: black;
+    margin-bottom: 7%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    background-color: grey;
+}
+
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+
+.card{
+    background-color: rgb(32, 32, 32);
+    width: auto;
+    height: auto;
+    margin: 2%;
+    flex: auto;    
+    flex-basis: 17%;
+
+    color: grey;
+    font-size: 150%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 3px 3px black;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+/*Wenn man drauf klickt (das Umdrehen der Karte)!*/
+.flipped{
+    border-radius: 25%;
+
+    transition: 0.3s ease-in-out;
+    box-shadow: none;
+}
+
+
+.flipped#a{
+    background-color: #DB8E72;
+}
+
+.flipped#b{
+    background-color: #A4DB7D;
+}
+
+.flipped#c{
+    background-color: #DB6874;
+}
+
+.flipped#d{
+    background-color: #51DBBF;
+}
+
+.flipped#e{
+    background-color: #D45CDB;
+}
+
+.flipped#f{
+    background-color: #D1DB6C;
+}
+
+.flipped#g{
+    background-color: #98DB04;
+}
+
+.flipped#h{
+    background-color: #DB1000;
+}
